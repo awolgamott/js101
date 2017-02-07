@@ -157,9 +157,7 @@ doTwice(helloWorld) // should print 'hello world' to the console twice.
 // "YES." Otherwise, it will does nothing.
 
 var conditionallyInvoke = function(input) {
-	if(console.log(ORACLE) === 'YES') {
-	}
-	else {
+	if(ORACLE === 'YES') {
 		input()
 	}
 }
